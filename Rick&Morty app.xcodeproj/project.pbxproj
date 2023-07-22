@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E98D911F2A645C1100B356EC /* Consts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D911E2A645C1100B356EC /* Consts.swift */; };
+		E98D91212A645F0400B356EC /* CharacterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91202A645F0400B356EC /* CharacterPresenter.swift */; };
+		E98D91232A645F9500B356EC /* CharacterResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91222A645F9500B356EC /* CharacterResult.swift */; };
+		E98D91272A6462C400B356EC /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91262A6462C400B356EC /* Services.swift */; };
+		E98D91292A64666200B356EC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91282A64666200B356EC /* Enums.swift */; };
+		E98D912D2A649C6700B356EC /* CharacterListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D912C2A649C6600B356EC /* CharacterListView.swift */; };
+		E98D91312A64B17C00B356EC /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91302A64B17C00B356EC /* CacheAsyncImage.swift */; };
+		E98D914D2A65DF9800B356EC /* CharacterDetaiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D914C2A65DF9800B356EC /* CharacterDetaiView.swift */; };
+		E98D91572A69B55700B356EC /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91562A69B55700B356EC /* Extensiones.swift */; };
+		E98D91A72A6B17D300B356EC /* AppStorages.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91A62A6B17D300B356EC /* AppStorages.swift */; };
+		E98D91AA2A6B1B3500B356EC /* LocationInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91A92A6B1B3500B356EC /* LocationInfoView.swift */; };
+		E98D91AC2A6B1B5F00B356EC /* LocationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91AB2A6B1B5F00B356EC /* LocationPresenter.swift */; };
+		E98D91AE2A6B1B8300B356EC /* LocationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91AD2A6B1B8300B356EC /* LocationResult.swift */; };
+		E98D91B02A6B1BAE00B356EC /* EpisodeCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91AF2A6B1BAE00B356EC /* EpisodeCarouselView.swift */; };
+		E98D91B22A6B1BD900B356EC /* EpisodePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91B12A6B1BD900B356EC /* EpisodePresenter.swift */; };
+		E98D91B42A6B1C0500B356EC /* EpisodeResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91B32A6B1C0500B356EC /* EpisodeResult.swift */; };
+		E98D91B62A6B301200B356EC /* InfoResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98D91B52A6B301100B356EC /* InfoResponse.swift */; };
 		E99C19412A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C19402A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift */; };
-		E99C19432A5CA88A00E8E4F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C19422A5CA88A00E8E4F5 /* ContentView.swift */; };
 		E99C19452A5CA88B00E8E4F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99C19442A5CA88B00E8E4F5 /* Assets.xcassets */; };
 		E99C19482A5CA88B00E8E4F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E99C19472A5CA88B00E8E4F5 /* Preview Assets.xcassets */; };
-		E99C19522A5CA88C00E8E4F5 /* Rick_Morty_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C19512A5CA88C00E8E4F5 /* Rick_Morty_appTests.swift */; };
-		E99C195C2A5CA88C00E8E4F5 /* Rick_Morty_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C195B2A5CA88C00E8E4F5 /* Rick_Morty_appUITests.swift */; };
-		E99C195E2A5CA88C00E8E4F5 /* Rick_Morty_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C195D2A5CA88C00E8E4F5 /* Rick_Morty_appUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +47,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E98D911E2A645C1100B356EC /* Consts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consts.swift; sourceTree = "<group>"; };
+		E98D91202A645F0400B356EC /* CharacterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterPresenter.swift; sourceTree = "<group>"; };
+		E98D91222A645F9500B356EC /* CharacterResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResult.swift; sourceTree = "<group>"; };
+		E98D91262A6462C400B356EC /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		E98D91282A64666200B356EC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		E98D912C2A649C6600B356EC /* CharacterListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListView.swift; sourceTree = "<group>"; };
+		E98D91302A64B17C00B356EC /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		E98D914C2A65DF9800B356EC /* CharacterDetaiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetaiView.swift; sourceTree = "<group>"; };
+		E98D91562A69B55700B356EC /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		E98D91A62A6B17D300B356EC /* AppStorages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorages.swift; sourceTree = "<group>"; };
+		E98D91A92A6B1B3500B356EC /* LocationInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationInfoView.swift; sourceTree = "<group>"; };
+		E98D91AB2A6B1B5F00B356EC /* LocationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPresenter.swift; sourceTree = "<group>"; };
+		E98D91AD2A6B1B8300B356EC /* LocationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationResult.swift; sourceTree = "<group>"; };
+		E98D91AF2A6B1BAE00B356EC /* EpisodeCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCarouselView.swift; sourceTree = "<group>"; };
+		E98D91B12A6B1BD900B356EC /* EpisodePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodePresenter.swift; sourceTree = "<group>"; };
+		E98D91B32A6B1C0500B356EC /* EpisodeResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeResult.swift; sourceTree = "<group>"; };
+		E98D91B52A6B301100B356EC /* InfoResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoResponse.swift; sourceTree = "<group>"; };
 		E99C193D2A5CA88A00E8E4F5 /* Rick&Morty app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rick&Morty app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E99C19402A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_Morty_appApp.swift; sourceTree = "<group>"; };
-		E99C19422A5CA88A00E8E4F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E99C19442A5CA88B00E8E4F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E99C19472A5CA88B00E8E4F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E99C194D2A5CA88C00E8E4F5 /* Rick&Morty appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick&Morty appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99C19512A5CA88C00E8E4F5 /* Rick_Morty_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_Morty_appTests.swift; sourceTree = "<group>"; };
 		E99C19572A5CA88C00E8E4F5 /* Rick&Morty appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rick&Morty appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E99C195B2A5CA88C00E8E4F5 /* Rick_Morty_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_Morty_appUITests.swift; sourceTree = "<group>"; };
-		E99C195D2A5CA88C00E8E4F5 /* Rick_Morty_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rick_Morty_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +97,110 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E98D912F2A64B15900B356EC /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91302A64B17C00B356EC /* CacheAsyncImage.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		E98D91362A65426500B356EC /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91382A6542BC00B356EC /* Model */,
+				E98D91582A69BA3200B356EC /* View */,
+				E98D91392A65438600B356EC /* Presenter */,
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		E98D91372A65428B00B356EC /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E99C19442A5CA88B00E8E4F5 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		E98D91382A6542BC00B356EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91B32A6B1C0500B356EC /* EpisodeResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E98D91392A65438600B356EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91B12A6B1BD900B356EC /* EpisodePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E98D91582A69BA3200B356EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91AF2A6B1BAE00B356EC /* EpisodeCarouselView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E98D91912A6B159700B356EC /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+				E98D919B2A6B159700B356EC /* Model */,
+				E98D919E2A6B159700B356EC /* View */,
+				E98D91922A6B159700B356EC /* Presenter */,
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		E98D91922A6B159700B356EC /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91AB2A6B1B5F00B356EC /* LocationPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E98D919B2A6B159700B356EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91AD2A6B1B8300B356EC /* LocationResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E98D919E2A6B159700B356EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91A92A6B1B3500B356EC /* LocationInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E98D91A52A6B17BF00B356EC /* Storages */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91A62A6B17D300B356EC /* AppStorages.swift */,
+			);
+			path = Storages;
+			sourceTree = "<group>";
+		};
+		E98D91A82A6B17E200B356EC /* SycleLife */ = {
+			isa = PBXGroup;
+			children = (
+				E99C19402A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift */,
+			);
+			path = SycleLife;
+			sourceTree = "<group>";
+		};
 		E99C19342A5CA88900E8E4F5 = {
 			isa = PBXGroup;
 			children = (
 				E99C193F2A5CA88A00E8E4F5 /* Rick&Morty app */,
-				E99C19502A5CA88C00E8E4F5 /* Rick&Morty appTests */,
-				E99C195A2A5CA88C00E8E4F5 /* Rick&Morty appUITests */,
 				E99C193E2A5CA88A00E8E4F5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,9 +218,13 @@
 		E99C193F2A5CA88A00E8E4F5 /* Rick&Morty app */ = {
 			isa = PBXGroup;
 			children = (
-				E99C19402A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift */,
-				E99C19422A5CA88A00E8E4F5 /* ContentView.swift */,
-				E99C19442A5CA88B00E8E4F5 /* Assets.xcassets */,
+				E98D91372A65428B00B356EC /* Assets */,
+				E99C19752A5CB1C500E8E4F5 /* Services */,
+				E99C19902A5CC81F00E8E4F5 /* Helpers */,
+				E99C198F2A5CC78600E8E4F5 /* App */,
+				E99C19842A5CC6D800E8E4F5 /* Characters */,
+				E98D91912A6B159700B356EC /* Locations */,
+				E98D91362A65426500B356EC /* Episodes */,
 				E99C19462A5CA88B00E8E4F5 /* Preview Content */,
 			);
 			path = "Rick&Morty app";
@@ -110,21 +238,68 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		E99C19502A5CA88C00E8E4F5 /* Rick&Morty appTests */ = {
+		E99C19752A5CB1C500E8E4F5 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				E99C19512A5CA88C00E8E4F5 /* Rick_Morty_appTests.swift */,
+				E98D91262A6462C400B356EC /* Services.swift */,
+				E98D91B52A6B301100B356EC /* InfoResponse.swift */,
 			);
-			path = "Rick&Morty appTests";
+			path = Services;
 			sourceTree = "<group>";
 		};
-		E99C195A2A5CA88C00E8E4F5 /* Rick&Morty appUITests */ = {
+		E99C197D2A5CC6C400E8E4F5 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
-				E99C195B2A5CA88C00E8E4F5 /* Rick_Morty_appUITests.swift */,
-				E99C195D2A5CA88C00E8E4F5 /* Rick_Morty_appUITestsLaunchTests.swift */,
+				E98D91202A645F0400B356EC /* CharacterPresenter.swift */,
 			);
-			path = "Rick&Morty appUITests";
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E99C197F2A5CC6C400E8E4F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91222A645F9500B356EC /* CharacterResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E99C19812A5CC6C400E8E4F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E98D912C2A649C6600B356EC /* CharacterListView.swift */,
+				E98D914C2A65DF9800B356EC /* CharacterDetaiView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E99C19842A5CC6D800E8E4F5 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				E99C197F2A5CC6C400E8E4F5 /* Model */,
+				E99C19812A5CC6C400E8E4F5 /* View */,
+				E99C197D2A5CC6C400E8E4F5 /* Presenter */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		E99C198F2A5CC78600E8E4F5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E98D91A82A6B17E200B356EC /* SycleLife */,
+				E98D91A52A6B17BF00B356EC /* Storages */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E99C19902A5CC81F00E8E4F5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E98D912F2A64B15900B356EC /* Extras */,
+				E98D911E2A645C1100B356EC /* Consts.swift */,
+				E98D91282A64666200B356EC /* Enums.swift */,
+				E98D91562A69B55700B356EC /* Extensiones.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +377,7 @@
 					};
 					E99C19562A5CA88C00E8E4F5 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 						TestTargetID = E99C193C2A5CA88A00E8E4F5;
 					};
 				};
@@ -257,8 +433,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C19432A5CA88A00E8E4F5 /* ContentView.swift in Sources */,
+				E98D91212A645F0400B356EC /* CharacterPresenter.swift in Sources */,
+				E98D91B02A6B1BAE00B356EC /* EpisodeCarouselView.swift in Sources */,
+				E98D91AE2A6B1B8300B356EC /* LocationResult.swift in Sources */,
+				E98D91312A64B17C00B356EC /* CacheAsyncImage.swift in Sources */,
+				E98D91272A6462C400B356EC /* Services.swift in Sources */,
+				E98D91B22A6B1BD900B356EC /* EpisodePresenter.swift in Sources */,
+				E98D91232A645F9500B356EC /* CharacterResult.swift in Sources */,
+				E98D912D2A649C6700B356EC /* CharacterListView.swift in Sources */,
+				E98D91B62A6B301200B356EC /* InfoResponse.swift in Sources */,
+				E98D91572A69B55700B356EC /* Extensiones.swift in Sources */,
+				E98D91AA2A6B1B3500B356EC /* LocationInfoView.swift in Sources */,
+				E98D91A72A6B17D300B356EC /* AppStorages.swift in Sources */,
+				E98D91AC2A6B1B5F00B356EC /* LocationPresenter.swift in Sources */,
+				E98D91292A64666200B356EC /* Enums.swift in Sources */,
 				E99C19412A5CA88A00E8E4F5 /* Rick_Morty_appApp.swift in Sources */,
+				E98D911F2A645C1100B356EC /* Consts.swift in Sources */,
+				E98D914D2A65DF9800B356EC /* CharacterDetaiView.swift in Sources */,
+				E98D91B42A6B1C0500B356EC /* EpisodeResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +458,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C19522A5CA88C00E8E4F5 /* Rick_Morty_appTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +465,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E99C195C2A5CA88C00E8E4F5 /* Rick_Morty_appUITests.swift in Sources */,
-				E99C195E2A5CA88C00E8E4F5 /* Rick_Morty_appUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +700,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D4LCM8L22Q;
@@ -519,6 +709,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "educodev.Rick-Morty-appUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = "Rick&Morty app";
@@ -529,6 +720,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D4LCM8L22Q;
